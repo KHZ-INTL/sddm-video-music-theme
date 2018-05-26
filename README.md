@@ -61,8 +61,7 @@ If that is not sufficient to run consider installing:
 + gst-plugins-good
 
 To install them:
-+ on Arch linux: 'sudo pacman -S sddm qt5 ttf-fira-mono' 
-+ on Debian: 'sudo apt-get install sddm qt5 ttf-fira-mono'
++ on Arch linux: 'sudo pacman -S gst-libav phonon-qt5-gstreamer gst-plugins-good' 
 
 ## Installation<br>
 First clone the repository:<br>
