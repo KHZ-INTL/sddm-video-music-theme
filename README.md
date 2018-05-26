@@ -1,5 +1,16 @@
+
+
 # sddm-video-music theme
 This is a SDDM theme based on [@Eayu's](https://github.com/Eayu/sddm-theme-clairvoyance) Clairvoyance theme but also includes code from [@3ximus](https://github.com/3ximus/aerial-sddm-theme) Aerial-sddm-theme. The Clairvoyance theme was modified to have videos play as background and also play music. Music and videos are loaded from a playlist. To avoid reinventing the "wheel" I have used most of the code from the Clairvoyance and aerial-sddm-theme.
+
+## Screenshots and videos
+[![Alt text](/screenshots/screenshot_1.png?raw=true)]
+[![Alt text](/screenshots/screenshot_2.png?raw=true)]
+
+![preview3](screenshots/1.gif)
+
+
+
 
 ## What has changed?
 + User selection is disabled, but you can change that in the Main.qml file:
@@ -53,24 +64,23 @@ To install them:
 + on Arch linux: 'sudo pacman -S sddm qt5 ttf-fira-mono' 
 + on Debian: 'sudo apt-get install sddm qt5 ttf-fira-mono'
 
-## Installation
-First clone the repository:
-'git clone https://github.com/KHZ-INTL/sddm-video-music-theme'
-
-Make sure that you have the required dependencies installed.
-
-Then move it to the sddm-themes directory:
-'sudo mv sddm-video-music-theme /usr/share/sddm/themes/'
-
-Then set the current theme to sddm- in sddm.conf:
-'sudo vim /etc/sddm.conf'
+## Installation<br>
+First clone the repository:<br>
+```git clone https://github.com/KHZ-INTL/sddm-video-music-theme```<br><br>
+Make sure that you have the required dependencies installed.<br>
+Then move it to the sddm-themes directory:<br>
+```sudo mv sddm-video-music-theme /usr/share/sddm/themes/```<br><br>
+Then set the current theme to clairvoyance in sddm.conf:<br>
+```sudo vim /etc/sddm.conf```<br>
 and set "Current" equal to "sddm-video-music-theme" (no speech marks).
 
 ## Credits
 Thanks to:
 + [@Eayu's](https://github.com/Eayu/) for his wonderful theme, Clairvoyance. Shamelessly stole his installation instructions, sorry no time to write one my self. 
 + [@3ximus](https://github.com/3ximus/aerial-sddm-theme) for his wonderful theme, Aerial-sddm-theme. Also awesome license. 
++ Apple's Aerial videos.
 
+## License
 
-
+Theme is licensed under GPL.
 
