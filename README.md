@@ -1,5 +1,5 @@
 # sddm-video-music theme
-This is a SDDM theme based on [@Eayu's Clairvoyance](https://github.com/Eayu/sddm-theme-clairvoyance) theme but also includes code from [@3ximus](https://github.com/3ximus/aerial-sddm-theme) aerial-sddm-theme. The Clairvoyance theme was modified to have videos play as background and also play music. Music and videos are loaded from a playlist. To avoid reinventing the "wheel" I have used most of the code from the Clairvoyance and aerial-sddm-theme.
+This is a SDDM theme based on [@Eayu's](https://github.com/Eayu/sddm-theme-clairvoyance) Clairvoyance theme but also includes code from [@3ximus](https://github.com/3ximus/aerial-sddm-theme) Aerial-sddm-theme. The Clairvoyance theme was modified to have videos play as background and also play music. Music and videos are loaded from a playlist. To avoid reinventing the "wheel" I have used most of the code from the Clairvoyance and aerial-sddm-theme.
 
 ## What has changed?
 + User selection is disabled, but you can change that in the Main.qml file:
@@ -18,7 +18,7 @@ This is a SDDM theme based on [@Eayu's Clairvoyance](https://github.com/Eayu/sdd
 + Music: Play music in the background from playlist.
   + The music playlist file "music.m3u" is located in the Assets folder in this repo.
   + Populate the music playlist file by:
-    + Write the full path of the music file. One file per line. This can be automated by using shell, see the "Other notes" section of see 3ximus' [aerial-sddm-theme](https://github.com/3ximus/aerial-sddm-theme) ReadMe.
+    + Write the full path of the music file. One file per line. This can be automated by using shell, see the "Other notes" section of 3ximus' [aerial-sddm-theme](https://github.com/3ximus/aerial-sddm-theme) ReadMe.
 
 + Time and Date
   + Font changed to Fira Sans
@@ -33,3 +33,44 @@ This is a SDDM theme based on [@Eayu's Clairvoyance](https://github.com/Eayu/sdd
 + Move username text below image
 + Weather
 + notifications / Recent notifications
+
+## Dependencies
+Since most of the components are used from [@Eayu's Clairvoyance](https://github.com/Eayu/sddm-theme-clairvoyance) and [@3ximus' Aerial-sddm-theme](https://github.com/3ximus/aerial-sddm-theme) you need to have the following installed:
++ sddm
++ qt5
++ ttf-fira-mono
+
+To install them:
++ on Arch linux: 'sudo pacman -S sddm qt5 ttf-fira-mono' 
++ on Debian: 'sudo apt-get install sddm qt5 ttf-fira-mono'
+
+If that is not sufficient to run consider installing:
++ gst-libav 
++ phonon-qt5-gstreamer
++ gst-plugins-good
+
+To install them:
++ on Arch linux: 'sudo pacman -S sddm qt5 ttf-fira-mono' 
++ on Debian: 'sudo apt-get install sddm qt5 ttf-fira-mono'
+
+## Installation
+First clone the repository:
+'git clone https://github.com/KHZ-INTL/sddm-video-music-theme'
+
+Make sure that you have the required dependencies installed.
+
+Then move it to the sddm-themes directory:
+'sudo mv sddm-video-music-theme /usr/share/sddm/themes/'
+
+Then set the current theme to sddm- in sddm.conf:
+'sudo vim /etc/sddm.conf'
+and set "Current" equal to "sddm-video-music-theme" (no speech marks).
+
+## Credits
+Thanks to:
++ [@Eayu's](https://github.com/Eayu/) for his wonderful theme, Clairvoyance. Shamelessly stole his installation instructions, sorry no time to write one my self. 
++ [@3ximus](https://github.com/3ximus/aerial-sddm-theme) for his wonderful theme, Aerial-sddm-theme. Also awesome license. 
+
+
+
+
