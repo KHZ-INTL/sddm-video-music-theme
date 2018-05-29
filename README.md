@@ -4,8 +4,9 @@
 This is a SDDM theme based on [@Eayu's](https://github.com/Eayu/sddm-theme-clairvoyance) Clairvoyance theme but also includes code from [@3ximus](https://github.com/3ximus/aerial-sddm-theme) Aerial-sddm-theme. The Clairvoyance theme was modified to have videos play as background and also play music. Music and videos are loaded from a playlist. To avoid reinventing the "wheel" I have used most of the code from the Clairvoyance and aerial-sddm-theme.
 
 ## Screenshots and videos
-[![Alt text](/screenshots/screenshot_1.png?raw=true)]
-[![Alt text](/screenshots/screenshot_2.png?raw=true)]
+![Alt text](/screenshots/screenshot_1.png?raw=true)
+![Alt text](/screenshots/screenshot_2.png?raw=true)
+![Alt text](/screenshots/screenshot_login_ui.png?raw=true)
 
 ![preview3](screenshots/1.gif)
 
