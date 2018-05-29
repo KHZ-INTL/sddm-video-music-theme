@@ -6,6 +6,7 @@ This is a SDDM theme based on [@Eayu's](https://github.com/Eayu/sddm-theme-clair
 ## Screenshots and videos
 [![Alt text](/screenshots/screenshot_1.png?raw=true)]
 [![Alt text](/screenshots/screenshot_2.png?raw=true)]
+[![Alt text](/screenshots/screenshot_login_ui.png?raw=true)]
 
 ![preview3](screenshots/1.gif)
 
