@@ -1,7 +1,7 @@
 [SddmGreeterTheme]
 Name=sddm-video-music-theme
 Description=Play video as background. Play music in the background.
-License=
+License=GNU GPLv3 
 Type=sddm-theme
 Version=1.0
 MainScript=Main.qml
