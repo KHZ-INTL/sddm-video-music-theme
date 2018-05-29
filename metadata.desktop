@@ -1,0 +1,10 @@
+[SddmGreeterTheme]
+Name=sddm-video-music-theme
+Description=Play video as background. Play music in the background.
+License=
+Type=sddm-theme
+Version=1.0
+MainScript=Main.qml
+Theme-Id=sddm-video-music-theme
+Theme-API=2.0
+Screenshot=./screenshots/screenshot_login_ui.png
