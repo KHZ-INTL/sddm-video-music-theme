@@ -72,16 +72,16 @@ Then move it to the sddm-themes directory:<br>
 ```sudo mv sddm-video-music-theme /usr/share/sddm/themes/```<br><br>
 Then set the current theme to sddm-video-music-theme in sddm.conf:<br>
 ```sudo vim /etc/sddm.conf```<br>
-and set "Current" equal to "sddm-video-music-theme" (no speech marks).<br>
-Populate video playlist with videos: "playlist_day.m3u" and "playlist_night.m3u". They are located in the Assets directory<br>
-One video url per line:
+and set "Current" equal to "sddm-video-music-theme" (no speech marks).<br><br>
+Populate video playlist with videos: "playlist_day.m3u" and "playlist_night.m3u". They are located in the Assets directory<br><br>
+One video url per line:<br>
 ```/home/myUserName/Videos/GreatWallofChina.mov```<br>
-```/home/myUserName/Videos/Dubai.mov```<br>
+```/home/myUserName/Videos/Dubai.mov```<br><br>
 Populate music playlist with music. The playlist file ("music.m3u") is located in the Assets directory:<br>
 One music url per line:
 ```/home/myUserName/Music/return.mp3```<br>
 ```/home/myUserName/Music/engage.mp3```<br>
-Replace the background image. The default background image is located in the assets directory.
+Replace the background image. The default background image is located in the assets directory.<br><br>
 
 ## Credits
 Thanks to:
