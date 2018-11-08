@@ -83,6 +83,15 @@ One music url per line:<br>
 ```/home/myUserName/Music/engage.mp3```<br><br>
 Replace the background image. The default background image is located in the assets directory.<br><br>
 
+## Questions and Answers
+1. Video is not visible, but background image is?
+This means SDDM was not able to load the video and this can be caused by many factors:
++ Permissions: SDDM/QT does not have the permission to access/read the video files. Try changing the read permission for "others" for the video files. Also consider having the videos in a folder where SDDM/QT have permission to access that and its parent folders.
++ Incompatible video format: SDDM/QT may not be able to process the video file in that format, try another format, mp4?
++ Host: The host may not be accessable. Do you have an internet connection?, is the webserver alive?, correct URL, 404?
+
+
+
 ## Credits
 Thanks to:
 + [@Eayu's](https://github.com/Eayu/) for his wonderful theme, Clairvoyance. Shamelessly stole his installation instructions, sorry no time to write one my self. 
